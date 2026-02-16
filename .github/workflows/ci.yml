@@ -15,7 +15,7 @@ jobs:
       - name: Verify CLAUDE.md exists
         run: test -f CLAUDE.md
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: '20'
           cache: 'npm'
